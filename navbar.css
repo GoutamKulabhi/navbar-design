@@ -1,0 +1,26 @@
+.navbar{
+	display:flex;
+	background-color: #75F30B;
+	padding:20px;
+	font-size: 20px;
+
+
+}
+
+.item{
+	display: flex;
+	width:120px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.color{
+	color:red;
+}
+
+@media screen and (max-width: 720px){
+
+	.navbar{
+		flex-wrap: wrap;
+	}
+}
